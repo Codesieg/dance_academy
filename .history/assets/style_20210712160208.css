@@ -1,0 +1,15 @@
+.on-front {
+    z-index: 9999;
+}
+
+.nav-item {
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-item>a {
+    color: #ffff;
+}
+
+.white {
+    color: #ffff;
+}

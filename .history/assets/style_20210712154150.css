@@ -1,0 +1,8 @@
+.navbar {
+    z-index: 9999;
+    top: 8%;
+}
+
+.nav-item {
+    font-family: 'Oswald', sans-serif;
+}

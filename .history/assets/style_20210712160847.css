@@ -1,0 +1,23 @@
+.on-front {
+    z-index: 9999;
+}
+
+.slides {
+    height: 100vh;
+}
+
+.nav-item {
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-item>a {
+    color: #ffff;
+}
+
+.white {
+    color: #ffff;
+}
+
+.slide1 {
+    margin-right: 30%;
+}

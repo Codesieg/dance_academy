@@ -1,0 +1,32 @@
+.on-front {
+    z-index: 9999;
+}
+
+.slides {
+    overflow: hidden;
+}
+
+.nav-item {
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-item>a {
+    color: #ffff;
+}
+
+.white {
+    color: #ffff;
+}
+
+.slide1 {
+    margin-right: 30%;
+}
+
+.slide2 {
+    margin-top: 30%;
+}
+
+.carousel,
+.slides {
+    height: 100vh;
+}
