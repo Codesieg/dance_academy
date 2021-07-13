@@ -48,29 +48,14 @@
 }
 
 .teacher--background {
-    height: 30vh;
+    height: 35vh;
     background-image: url('/assets/img/poledancing-backround-1.jpg');
     background-repeat: no-repeat;
 }
 
 .biography {
-    height: 60vh;
+    min-height: 60vh;
     background-image: url('/assets/img/poledance-parallax.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-.gallery-wrapper {
-    display: flex
-}
-
-.gallery-image {
-    width: 20%;
-    height: 20%;
-    overflow: hidden;
-}
-
-.avis {
-    background-color: rgb(250, 249, 249);
-    height: 40vh;
 }
