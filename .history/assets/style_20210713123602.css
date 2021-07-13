@@ -48,13 +48,6 @@
 }
 
 .teacher--background {
-    height: 35vh;
-    background-image: url('/assets/img/poledancing-backround-1.jpg');
-    background-repeat: no-repeat;
-}
-
-.biography {
     height: 50vh;
-    background-image: url('/assets/img/poledance-parallax.jpg');
-    background-repeat: no-repeat;
+    background-image: url('/assets/img/poledancing-backround-1.jpg');
 }

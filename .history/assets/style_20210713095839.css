@@ -32,29 +32,13 @@
     height: 100vh;
 }
 
-.gallery-image,
-.gallery-no-image {
+.gallery-image {
     width: 25%;
     height: 483px;
 }
 
 .gallery-no-image {
+    width: 25%;
+    height: 483px;
     background-color: rgb(248, 16, 229);
-    padding: 5rem;
-}
-
-.roboto {
-    font-family: 'roboto';
-}
-
-.teacher--background {
-    height: 35vh;
-    background-image: url('/assets/img/poledancing-backround-1.jpg');
-    background-repeat: no-repeat;
-}
-
-.biography {
-    height: 50vh;
-    background-image: url('/assets/img/poledance-parallax.jpg');
-    background-repeat: no-repeat;
 }
