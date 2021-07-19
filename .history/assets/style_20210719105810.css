@@ -65,7 +65,8 @@
 }
 
 .gallery-image {
-    width: 27%;
+    width: 20%;
+    height: 20%;
     overflow: hidden;
 }
 
