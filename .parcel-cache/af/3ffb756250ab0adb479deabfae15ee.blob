@@ -1,0 +1,96 @@
+.on-front {
+  z-index: 9999;
+}
+
+.slides {
+  overflow: hidden;
+}
+
+.nav-item {
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-item a {
+  color: #ffff;
+}
+
+.font-oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.white {
+  color: #ffff;
+}
+
+.pink {
+  color: #f810e5;
+}
+
+.slide1 {
+  margin: 25% 30%;
+}
+
+.slide2,
+.slide3 {
+  margin: 25% 0;
+}
+
+.carousel,
+.slides {
+  height: 100vh;
+}
+
+.newsletter--background {
+  height: 60vh;
+  background-image: url("f4026c3e96fb71a28d63aff95f569362");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.gallery-image,
+.gallery-no-image {
+  width: 25%;
+  height: 483px;
+}
+
+.gallery-no-image {
+  background-color: #f810e5;
+  padding: 5rem;
+}
+
+.roboto {
+  font-family: "roboto";
+}
+
+.teacher--background {
+  height: 30vh;
+  background-image: url("d78cc06d9c37b39d1bc1357ba5740cef");
+  background-repeat: no-repeat;
+}
+
+.biography {
+  height: 60vh;
+  background-image: url("2ca5097052b1cb4480c020bf9cd92f75");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.gallery-wrapper {
+  display: flex;
+}
+
+.gallery-image {
+  width: 27%;
+  overflow: hidden;
+}
+
+.gallery-image--small {
+  width: 20%;
+  height: 20%;
+  overflow: hidden;
+}
+
+.avis {
+  background-color: #faf9f9;
+  height: 30vh;
+}

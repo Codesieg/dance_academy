@@ -1,0 +1,97 @@
+.on-front {
+  z-index: 9999;
+}
+
+.slides {
+  overflow: hidden;
+}
+
+.nav-item {
+  font-family: "Oswald", sans-serif;
+}
+
+.font-oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-item > a {
+  color: #ffff;
+}
+
+.white {
+  color: #ffff;
+}
+
+.pink {
+  color: #f810e5;
+}
+
+.slide1 {
+  margin: 25% 30%;
+}
+
+.slide2,
+.slide3 {
+  margin: 25% 0;
+}
+
+.carousel,
+.slides {
+  height: 100vh;
+}
+
+.newsletter--background {
+  height: 60vh;
+  background-image: url("h1-background-img-1.c870c588.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.gallery-image,
+.gallery-no-image {
+  width: 25%;
+  height: 483px;
+}
+
+.gallery-no-image {
+  background-color: #f810e5;
+  padding: 5rem;
+}
+
+.roboto {
+  font-family: "roboto";
+}
+
+.teacher--background {
+  height: 30vh;
+  background-image: url("poledancing-backround-1.f4cf71e5.jpg");
+  background-repeat: no-repeat;
+}
+
+.biography {
+  height: 60vh;
+  background-image: url("poledance-parallax.ba831399.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.gallery-wrapper {
+  display: flex;
+}
+
+.gallery-image {
+  width: 27%;
+  overflow: hidden;
+}
+
+.gallery-image--small {
+  width: 20%;
+  height: 20%;
+  overflow: hidden;
+}
+
+.avis {
+  background-color: #faf9f9;
+  height: 30vh;
+}
+/*# sourceMappingURL=index.e928f563.css.map */

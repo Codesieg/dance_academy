@@ -1,0 +1,97 @@
+.on-front {
+    z-index: 9999;
+}
+
+.slides {
+    overflow: hidden;
+}
+
+.nav-item {
+    font-family: 'Oswald', sans-serif;
+}
+
+.font-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.nav-item>a {
+    color: #ffff;
+}
+
+.white {
+    color: #ffff;
+}
+
+.pink {
+    color: rgb(248, 16, 229);
+}
+
+.slide1 {
+    margin: 25% 30%;
+}
+
+.slide2,
+.slide3 {
+    margin: 25% 0;
+}
+
+.carousel,
+.slides {
+    height: 100vh;
+}
+
+.newsletter--background {
+    height: 60vh;
+    background-image: url('h1-background-img-1.HASH_REF_94903c415d2cb37db325c2bdc870c588.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.gallery-image,
+.gallery-no-image {
+    width: 25%;
+    height: 483px;
+}
+
+.gallery-no-image {
+    background-color: rgb(248, 16, 229);
+    padding: 5rem;
+}
+
+.roboto {
+    font-family: 'roboto';
+}
+
+.teacher--background {
+    height: 30vh;
+    background-image: url('poledancing-backround-1.HASH_REF_39155ec5d16ccd5b664a7a54f4cf71e5.jpg');
+    background-repeat: no-repeat;
+}
+
+.biography {
+    height: 60vh;
+    background-image: url('poledance-parallax.HASH_REF_237a25e49526d496f80ba20dba831399.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.gallery-wrapper {
+    display: flex
+}
+
+.gallery-image {
+    width: 27%;
+    overflow: hidden;
+}
+
+.gallery-image--small {
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+}
+
+.avis {
+    background-color: rgb(250, 249, 249);
+    height: 30vh;
+}
+/*# sourceMappingURL=index.HASH_REF_51e3c9f76c23a7591df107fbe6d27db8.css.map */

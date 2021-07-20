@@ -1,0 +1,22 @@
+@import './abstracts/variables';
+.nav {
+    background-color: $color-picto;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actuality {
+    &--background {
+        height: 35vh;
+        background-image: url('/assets/img/blog/title_img_blog.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

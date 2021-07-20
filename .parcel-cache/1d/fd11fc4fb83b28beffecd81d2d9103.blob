@@ -1,0 +1,6 @@
+require('./assets/scss/home.scss');
+require('./assets/scss/actus.scss');
+require('bootstrap');
+require('bootstrap/dist/css/bootstrap.css');
+require('@fortawesome/fontawesome-free/css/all.css');
+console.log('%c' + 'Fchier main.js chargé', 'color: #0bf; font-size:1rem; background-color:#fff');
