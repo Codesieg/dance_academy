@@ -1,0 +1,7 @@
+@import './abstracts/variables';
+.newsletter--background {
+    height: 60vh;
+    background-image: url('/assets/img/blog/title_img_blog.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

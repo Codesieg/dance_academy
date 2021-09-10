@@ -1,0 +1,11 @@
+.actuality--background {
+  height: 35vh;
+  background-image: url("/assets/img/blog/title_img_blog.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.nav {
+  background-color: #f810e5;
+  height: 15vh;
+}

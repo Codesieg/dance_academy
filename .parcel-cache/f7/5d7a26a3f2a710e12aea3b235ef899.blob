@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="2354858baee7e0ae67ce5dcd33c9736a">
+    <link rel="preconnect" href="4a8a00904bae35c1104942c334d95ef2" crossorigin="">
+    <link href="97ac041f8aa4bbc5e7e0cda85370fc49" rel="stylesheet">
+
+    <title>Dance Academy</title>
+</head>
+
+<body>
+    <main>
+        <div>
+            <header class="">
+                <nav class="on-front position-absolute start-50 translate-middle mt-5">
+                    <ul class="nav">
+                        <li class="nav-item me-5">
+                            <a class="nav-link active" aria-current="page" href="#">
+                                ACCUEIL                                                            
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link" href="">
+                                EVENTS                                                            
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link" href="#">
+                                PORTFOLIO                                                            
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link" href="20daa8513ac7ae0a61ed0a26427fc7ad" tabindex="-1" aria-disabled="true">
+                                ACTUS                                                          
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">
+                                CONTACT                                                        
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="slides">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="f99c181267bbb17c4d513a79826a3e56" class="d-block w-100 h-75" alt="...">
+                            <div class="on-front slide1 position-absolute top-0 end-0 translate-middle-y white">
+                                <h1>
+                                    First slide label
+                                </h1>
+                                <p>
+                                    Some representative placeholder content for the first slide.
+                                </p>
+                            </div>
+                            <div class="carousel-caption d-none d-md-block"></div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="562d87abd6e985a4114d264ba664b93c" class="d-block w-100" alt="/assets/img/slider1.jpg">
+                            <div class="on-front slide2 position-absolute top-0 start-50 translate-middle white">
+                                <h1>
+                                    Second slide label
+                                </h1>
+                                <p>
+                                    Some representative placeholder content for the first slide.
+                                </p>
+                            </div>
+
+                            <div class="carousel-caption d-none d-md-block"></div>
+
+                        </div>
+                        <div class="carousel-item">
+                            <img src="6f77ed6379b57e49bf9c7ae0d83ce038" class="d-block w-100" alt="...">
+                            <div class="on-front slide3 position-absolute top-0 start-50 translate-middle white">
+                                <h1>Third slide label</h1>
+                                <p>
+                                    Some representative placeholder content for the first slide.
+                                </p>
+                            </div>
+
+                            <div class="carousel-caption d-none d-md-block"></div>
+
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">
+                                Previous                        
+                            </span>
+                        </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">
+                                Next                               
+                            </span>
+                        </button>
+                </div>
+            </section>
+
+            <section>
+                <div class="d-flex justify-content-center">
+                    <div class="m-5 text-end w-25">
+                        <p>
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur itaque repellendus esse odio temporibus atque quidem quibusdam ad exercitationem eum.
+                        </p>
+                    </div>
+                    <div class="m-5 w-25">
+                        <h1>
+                            Lorem ipsum dolor dolor sit amet
+                        </h1>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="d-flex w-75">
+                        <div class="w-50 me-4">
+                            <img class="img-fluid" src="9aca3abd76eb7b784cd2eca7811efa9a" alt="">
+                            <h3 class="mb-3 mt-3 roboto">
+                                Lorem ipsum
+                            </h3>
+                            <p class="mb-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tempore maxime? Quaerat iusto, veniam numquam suscipit error exercitationem? Dicta, aliquam.
+                            </p>
+                        </div>
+                        <div class="w-50 me-4">
+                            <img class="img-fluid " src="fea836968e1aa9df334008360eafeb76" alt="">
+                            <h3 class="mb-3 mt-3 roboto">
+                                Lorem ipsum dolor
+                            </h3>
+                            <p class=" mb-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tempore maxime? Quaerat iusto, veniam numquam suscipit error exercitationem? Dicta, aliquam.
+                            </p>
+                        </div>
+                        <div class="w-50">
+                            <img class="img-fluid " src="2a2cf39bc95c39c1cc0382f7dcf0cea3" alt="">
+                            <h3 class="mb-3 mt-3 roboto">
+                                Lorem ipsum dolor sit
+                            </h3>
+                            <p class=" mb-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tempore maxime? Quaerat iusto, veniam numquam suscipit error exercitationem? Dicta, aliquam.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="newsletter newsletter--background d-flex flex-column justify-content-center">
+                <div>
+                    <div class="d-flex justify-content-center">
+                        <h2 class="me-3 text-end w-25 align-self-start white">
+                            Lorem ipsum dolor sit amet.
+                        </h2>
+                        <p class="text-start w-25 align-self-center white">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil rem sint ut nostrum, aspernatur dignissimos magnam officia provident. Obcaecati, nostrum.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex align-self-center">
+                    <div class="d-flex">
+                        <input type="email" placeholder="Enter your email address" aria-describedby="button-addon1" class="">
+                        <button type="button" class="btn btn-primary btn-lg">s'inscrire</button>
+                    </div>
+                </div>
+            </div>
+            <section class="gallery">
+                <div class="d-flex ">
+                    <div class="gallery-no-image">
+                        <h2>
+                            Notre Gallerie
+                        </h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam minus asperiores architecto. Praesentium ea odio exercitationem ratione dignissimos? Incidunt, delectus.
+                        </p>
+                        <a href="" class="white">
+                            <i class="bi bi-arrow-right-short white me-2" role="img" aria-label="arrow-right-short"></i>Explore
+                        </a>
+                    </div>
+                    <img class="gallery-image" src="0162bdf03c4703b32d8b4ce36b566299" alt="">
+                    <img class="gallery-image" src="7d1e97dba10b00b4372be1f23527f743" alt="">
+                    <img class="gallery-image" src="1cfcf1851a073101e22b6f8d68552112" alt="">
+                </div>
+            </section>
+            <section class="teacher">
+                <div class="teacher--background d-flex justify-content-center">
+                    <h2 class="mt-5 me-3 text-end w-25 align-self-center">
+                        MEETING OUR AMAZING AERIAL DANCE TEACHER
+                    </h2>
+                    <p class="mt-5 text-start w-25 align-self-center">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil rem sint ut nostrum, aspernatur dignissimos magnam officia provident. Obcaecati, nostrum.
+                    </p>
+                </div>
+                <div class="biography">
+                    <div class="mt-5 ms-5">
+                        <h4 class="white mt-5 pt-5">
+                            Lorem, ipsum.
+                        </h4>
+                        <p class="white w-25">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, commodi cumque quod, vitae, dicta sequi a adipisci itaque exercitationem atque quidem. Voluptas, architecto atque veniam aliquam rerum odio provident velit nulla saepe doloribus deserunt,
+                            commodi reprehenderit impedit eligendi quidem asperiores laboriosam quam accusamus suscipit, reiciendis possimus. Aliquam repudiandae error sed.
+                        </p>
+                    </div>
+                    <div class="ms-5 mt-3">
+                        <a href="">
+                            <i class="fab fa-instagram fs-2 white m-2" role="img" aria-label="instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-facebook fs-2 white m-2" role="img" aria-label="facebook"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab fa-twitter fs-2 white m-2" role="img" aria-label="twitter"></i>
+                        </a>
+                    </div>
+                    <div class="m-5">
+                        <img src="ba1e0071cd88bf2b5f207366abc3db14" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="avis py-5 d-flex flex-column justify-content-center">
+                <i class="bi bi-chat-square-quote fs-1 m-2 d-flex justify-content-center pink" role="img" aria-label="chat-quote "></i>
+                <blockquote class="mt-2 w-25 text-center d-flex flex-column align-self-center" "="">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, voluptates culpa nobis perspiciatis, exercitationem, deleniti eveniet neque quasi voluptas architecto iure aliquam placeat ratione reprehenderit autem sint mollitia earum a? Magnam quo
+                    vero natus, mollitia nihil fuga provident, minus iste quam, alias hic a aliquid esse quaerat expedita labore minima.
+                    <h5 class="mt-3 ">Lorem ipsum dolor sit.</h5>
+                </blockquote>
+            </section>
+            <section class="gallery ">
+                <div class="gallery-wrapper ">
+                    <img class="gallery-image--small " src="7c718aa0382e4a8f6f6ea4fb5ca63b39" alt=" ">
+                    <img class="gallery-image--small " src="e4c32d8866ff9cc9462b5cc38bd05cdd" alt=" ">
+                    <img class="gallery-image--small " src="25fbe1290ea9ddf6074ba4ff7d5130c3" alt=" ">
+                    <img class="gallery-image--small " src="ee7b3df3c4947df14cadbb862a2b77f2" alt=" ">
+                    <img class="gallery-image--small " src="a38aba20d95a998be98b6dd145ee796f" alt=" ">
+                    <img class="gallery-image--small " src="83f44b798a6a98f8031fc8e83fbbd402" alt=" ">
+                </div>
+            </section>
+        </div></main>
+
+        <!-- Footer -->
+        <footer class="bg-dark ">
+            <div class="d-flex justify-content-evenly p-5 ">
+                <div class="about-us white mx-3 ">
+                    <h4 class="font-weight-bold mb-4 font-oswald ">Dance Academy</h4>
+                    <a href=" " class="d-flex me-2 text-decoration-none white ">
+                        <i class="fas fa-phone-square-alt me-3 pink "></i>
+                        <p class="align-items-center ">1-677-124-44227</p>
+                    </a>
+                    <a href=" " class="d-flex me-2 text-decoration-none white ">
+                        <i class="fas fa-map-marker-alt me-3 pink "></i>
+                        <p class="align-items-center ">184 Main Collins Street</p>
+                    </a>
+                    <a href=" " class="d-flex me-2 text-decoration-none white ">
+                        <i class="fas fa-envelope me-3 pink "></i>
+                        <p class="align-items-center ">youremail@domaine.com</p>
+                    </a>
+                </div>
+                <div class="tweeter white mx-3 w-25 ">
+                    <h4 class="font-weight-bold mb-4 font-oswald ">Latests tweets</h4>
+                    <a href=" " class="d-flex me-2 text-decoration-none white ">
+                        <i class="fab fa-twitter me-3 pink "></i>
+                        <p class="align-items-center text-break ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, adipisci?</p>
+                    </a>
+                    <a href=" " class="d-flex me-2 text-decoration-none white ">
+                        <i class="fab fa-twitter me-3 pink "></i>
+                        <p class="align-items-center text-break ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, adipisci?</p>
+                    </a>
+                    <a href=" " class="d-flex me-2 text-decoration-none white ">
+                        <i class="fab fa-twitter me-3 pink "></i>
+                        <p class="align-items-center text-break ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, adipisci?</p>
+                    </a>
+                </div>
+                <div class="blog white mx-3 w-25 ">
+                    <h4 class="font-weight-bold mb-4 font-oswald ">Latests Posts</h4>
+                    <div>
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p class="pink ">le 12 juillet 2021</p>
+                    </div>
+                    <div>
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p class="pink ">le 12 juillet 2021</p>
+                    </div>
+                    <div>
+                        <h5>Lorem ipsum dolor sit amet.</h5>
+                        <p class="pink ">le 12 juillet 2021</p>
+                    </div>
+                </div>
+                <div class="instagram white mx-3 d-flex flex-column w-25 ">
+                    <h4 class="font-weight-bold mb-4 font-oswald ">Instagram</h4>
+                    <div class="d-flex ">
+                        <i class="fab fa-instagram me-3 pink "></i>
+                        <div>
+                            <h5 class="d-flex ">Lorem ipsum dolor sit amet.</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex ">
+                        <i class="fab fa-instagram me-3 pink "></i>
+                        <div>
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                        </div>
+                    </div>
+                    <div class="d-flex ">
+                        <i class="fab fa-instagram me-3 pink "></i>
+                        <div>
+                            <h5>Lorem ipsum dolor sit amet.</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="news white mx-3 w-25 ">
+                    <h4 class="font-weight-bold mb-4 w-25 font-oswald ">Newsletter</h4>
+                    <p class="text-muted mb-4 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
+                    <div class="p-1 rounded border ">
+                        <div class="input-group ">
+                            <input type="email " placeholder="Enter your email address " aria-describedby="button-addon1 " class="form-control border-0 shadow-0 ">
+                            <div class="input-group-append ">
+                                <button id="button-addon1 " type="submit " class="btn btn-link "><i class="fas fa-paper-plane pink "></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyrights -->
+            <div class="bg-secondary py-4 ">
+                <div class="text-center ">
+                    <p class="mb-0 py-2 white ">© 2021 DigitalUp All rights reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <!-- End -->
+
+    
+</body>
+<script src="8a192f16b389b1c6012cbfa184c869e4"></script>
+</html>
