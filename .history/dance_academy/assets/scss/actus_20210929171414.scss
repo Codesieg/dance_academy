@@ -1,0 +1,34 @@
+// @import './abstracts/variables';
+.nav {
+    background-color: $color-picto;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actuality {
+    &--background {
+        height: 35vh;
+        background-image: url('/assets/img/blog/title_img_blog.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.articles {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    &__single {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    &__single--image {
+        width: 35%;
+    }
+}
