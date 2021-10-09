@@ -34,37 +34,28 @@ class MainController extends AbstractController
     /**
      * @Route("/portfolio", name="portfolio")
      */
-    public function portfolio(Request $request): Response
+    public function portfolio(): Response
     {
-        $routeName = $request->attributes->get('_route');
-
         return $this->render('main/portfolio.html.twig', [
             'controller_name' => 'MainController',
-            'routeName' => $routeName,
         ]);
     }
     /**
      * @Route("/events", name="events")
      */
-    public function events(Request $request): Response
+    public function events(): Response
     {
-        $routeName = $request->attributes->get('_route');
-
         return $this->render('main/events.html.twig', [
             'controller_name' => 'MainController',
-            'routeName' => $routeName,
         ]);
     }
     /**
      * @Route("/contact", name="contact")
      */
-    public function contact(Request $request): Response
+    public function contact(): Response
     {
-        $routeName = $request->attributes->get('_route');
-
         return $this->render('main/contact.html.twig', [
             'controller_name' => 'MainController',
-            'routeName' => $routeName,
         ]);
     }
 }

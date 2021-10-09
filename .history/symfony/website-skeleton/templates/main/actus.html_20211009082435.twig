@@ -1,18 +1,18 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Dance Academy - Events{% endblock %}
+{% block title %}Dance Academy - Actus{% endblock %}
 
 
 {% block body %}
-{% include 'parts/nav.html.twig' %}
+        {% include 'parts/nav.html.twig' %}
             <section class="actuality">
                 <div class="actuality--background">
-                    <h1 class="">Nos Événements</h1>
+                    <h1 class="white"> Nos Actualitées</h1>
                 </div>
             </section>
             <section class="articles">
                 <article class="articles__single">
-                    <img class="articles__single--image" src="./assets/img/blog/standard-post-6.jpg" alt="">
+                    <img class="articles__single--image" src="{{ asset('/img/blog/standard-post-6.jpg' }}" alt="">
                     <div class="articles__article-content">
                         <div class="article__details">
                             <span>Le 19 Juillet 2021</span>

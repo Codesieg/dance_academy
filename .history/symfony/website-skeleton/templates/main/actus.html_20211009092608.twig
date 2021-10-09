@@ -1,0 +1,26 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dance Academy - Actus{% endblock %}
+
+
+{% block body %}
+        {% include 'parts/nav.html.twig' %}
+        <section class="actualities">
+            <h1 class="p-4 mb-5 bg-primary text-white text-center">Nos Actualitées</h1>
+        </section>
+        <section class="d-flex flex-column align-items-center mt-2">
+                    <article class="w-50 me-4">
+                        <img class="img-fluid" src="{{ asset('/img/blog/standard-post-1.jpg') }}" alt="">
+                        <h3 class="mb-3 mt-3 roboto">Lorem ipsum</h3>
+                        <span>Le 19 Juillet 2021</span>
+                        <p>/ Pars John Doe</p>
+                        <p>/ Dance</p>
+                        <p class="mb-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tempore maxime? Quaerat iusto, veniam numquam suscipit error exercitationem? Dicta, aliquam.
+                        </p>
+                        <div><span>Lire plus</span><i class="fas fa-long-arrow-alt-right"></i></div>
+                    </article>
+            </section>
+        </main>
+        {% include 'parts/footer.html.twig' %}
+{% endblock %}

@@ -2,7 +2,8 @@
     <main>
         <div>
             <header class="">
-                <nav class="on-front {{ (routeName == "accueil") ? 'position-absolute' : 'position-relative d-flex justify-content-center' }}  start-50 translate-middle mt-5">
+            {{dump(routeName)}}
+                <nav class="on-front position-absolute start-50 translate-middle mt-5">
                     <ul class="nav">
                         <li class="nav-item me-5">
                             <a class="nav-link active {{ (routeName == "accueil") ? '' : 'text-dark' }}" aria-current="page" href="{{ path('accueil') }}">
