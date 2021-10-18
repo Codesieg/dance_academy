@@ -12,6 +12,7 @@ require('bootstrap');
 // any CSS you import will output into a single css file (app.css in this case)
 import './styles/app.scss';
 import './styles/home.scss';
+import './styles/portfolio.scss';
 // import './styles/actus.scss';
 import bsCustomFileInput from 'bs-custom-file-input';
 import '@fortawesome/fontawesome-free/css/all.css';
