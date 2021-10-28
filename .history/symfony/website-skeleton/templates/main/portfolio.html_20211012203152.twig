@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dance Academy - Actus{% endblock %}
+
+
+{% block body %}
+        {% include 'parts/nav.html.twig' %}
+        <section class="portfolio">
+            <h1 class="p-4 mb-5 bg-primary text-white text-center font-oswald">Portfolio</h1>
+        </section>
+        <div class="d-flex justify-content-evenly">
+            <article class="w-75 mb-5">
+                <img src="{{ asset('/img/blog/author-vibez-img-1.jpg') }}" alt="">
+                <div class="title">
+                    <span>Dance</span>
+                    <h3>Your title</h3>
+                </div>
+            </article>
+            <article class="w-75 mb-5">
+                <img src="{{ asset('/img/blog/author-vibez-img-1.jpg') }}" alt="">
+                <div class="title">
+                    <span>Dance</span>
+                    <h3>Your title</h3>
+                </div>
+            </article>
+            <article class="w-75 mb-5">
+                <img src="{{ asset('/img/blog/author-vibez-img-1.jpg') }}" alt="">
+                <div class="title">
+                    <span>Dance</span>
+                    <h3>Your title</h3>
+                </div>
+            </article>
+        </div>
+    </main>
+        {% include 'parts/footer.html.twig' %}
+{% endblock %}

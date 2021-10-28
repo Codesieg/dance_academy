@@ -1,19 +1,17 @@
 {% extends 'base.html.twig' %}
 
-{% block title %}Dance Academy - Events{% endblock %}
+{% block title %}Dance Academy - Actus{% endblock %}
 
 
 {% block body %}
-{% include 'parts/nav.html.twig' %}
-            <section class="actuality">
-                <div class="actuality--background">
-                    <h1 class="">Nos Événements</h1>
-                </div>
+        {% include 'parts/nav.html.twig' %}
+            <section class="contact p-4 mb-5 bg-primary">
+                    <h1 class="text-white text-center font-oswald"> Nous contacter</h1>
             </section>
             <section class="articles">
                 <article class="articles__single">
                     <img class="articles__single--image" src="./assets/img/blog/standard-post-6.jpg" alt="">
-                    <div class="articles__article-content">
+                    <div class="articles__article__content">
                         <div class="article__details">
                             <span>Le 19 Juillet 2021</span>
                             <p>/ Pars John Doe</p>

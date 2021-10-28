@@ -1,0 +1,119 @@
+@import './abstracts/variables';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+
+.on-front {
+    z-index: 9999;
+}
+
+.slides {
+    overflow: hidden;
+}
+
+.nav-item {
+    font-family: 'Oswald', sans-serif;
+    a {
+        color: $color-brightest;
+    }
+}
+
+.font-oswald {
+    font-family: 'Oswald', sans-serif;
+}
+
+.white {
+    color: $color-brightest;
+}
+
+.pink {
+    color: $color-picto;
+}
+
+.slide1 {
+    margin: 25% 30%;
+}
+
+.slide2,
+.slide3 {
+    margin: 25% 0;
+}
+
+.carousel,
+.slides {
+    height: 100vh;
+}
+
+.newsletter--background {
+    height: 60vh;
+    background-image: url('/assets/img/h1-background-img-1.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.gallery-image,
+.gallery-no-image {
+    width: 25%;
+    height: 483px;
+}
+
+.gallery-no-image {
+    background-color: $color-picto;
+    padding: 5rem;
+}
+
+.roboto {
+    font-family: 'roboto';
+}
+
+.teacher--background {
+    height: 30vh;
+    background-image: url('/assets/img/poledancing-backround-1.jpg');
+    background-repeat: no-repeat;
+}
+
+.biography {
+    height: 60vh;
+    background-image: url('/assets/img/poledance-parallax.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.gallery-wrapper {
+    display: flex
+}
+
+.gallery-image {
+    width: 27%;
+    overflow: hidden;
+}
+
+.gallery-image--small {
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+}
+
+.avis {
+    background-color: $color-brightest;
+    height: 30vh;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.categories {
+    &__tag {
+        list-style-type: none;
+        width: 50%;
+        margin-bottom: 15px;
+    }
+    &__link {
+        text-decoration: none;
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}

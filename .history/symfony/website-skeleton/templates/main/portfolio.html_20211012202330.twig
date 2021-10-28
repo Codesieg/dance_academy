@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dance Academy - Actus{% endblock %}
+
+
+{% block body %}
+        {% include 'parts/nav.html.twig' %}
+            <section class="actuality">
+                <div class="actuality--background">
+                    <h1 class="white"> Nos Actualitées</h1>
+                </div>
+            </section>
+            <article class="">
+            <img src="{{ asset('/img/blog/author-vibez-img-1.jpg') }}" alt="">
+            </article>
+        </main>
+        {% include 'parts/footer.html.twig' %}
+{% endblock %}

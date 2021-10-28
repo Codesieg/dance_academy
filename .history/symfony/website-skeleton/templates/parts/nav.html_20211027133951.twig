@@ -1,0 +1,35 @@
+<body>
+    <main>
+        <div>
+            <header class="">
+                <nav class="on-front {{ (routeName == "accueil") ? 'position-absolute' : 'position-relative d-flex justify-content-center' }}  start-50 translate-middle mt-5">
+                    <ul class="nav">
+                        <li class="nav-item me-5">
+                            <a class="nav-link  {{ (routeName == "accueil") ? 'text-dark active' : '' }}" aria-current="page" href="{{ path('accueil') }}">
+                                ACCUEIL                                                            
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link  {{ (routeName == "school") ? 'text-dark active' : '' }}" href="{{ path('school') }}">
+                                L'ÉCOLE                                                            
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link {{ (routeName == "portfolio") ? 'text-dark active' : '' }}" href="{{ path('portfolio') }}">
+                                PORTFOLIO                                                            
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link {{ (routeName == "actus") ? 'text-dark active' : '' }}" href="{{ path('actus') }}" tabindex="-1" aria-disabled="true">
+                                ACTUS                                                          
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link {{ (routeName == "contact") ? 'text-dark active' : '' }}" href="{{ path('contact') }}" tabindex="-1" aria-disabled="true">
+                                CONTACT                                                        
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+
