@@ -1,6 +1,8 @@
 @import './abstracts/variables';
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 
+
+
 .on-front {
     z-index: 9999;
 }
@@ -35,10 +37,7 @@
     margin: 25% 0;
 }
 
-.carousel,
-.slides {
-    height: 100vh;
-}
+
 
 .newsletter--background {
     height: 60vh;
@@ -58,12 +57,16 @@
     font-family: 'roboto';
 }
 
-.teacher--background {
-    height: 28vh;
-    background-image: url('/assets/img/poledancing-backround-1.jpg');
-    background-repeat: no-repeat;
+@media  screen and (min-width: 768px){
+    .teacher--background {
+        background-image: url('/assets/img/poledancing-backround-1.jpg');
+        background-repeat: no-repeat;
+    }
+    .carousel,
+    .slides {
+        height: 100vh;
+    }
 }
-
 .biography {
     height: 95vh;
     background-image: url('/assets/img/poledance-parallax.jpg');
@@ -85,11 +88,6 @@
     width: 20%;
     // height: 20%;
     overflow: hidden;
-}
-
-.avis {
-    background-color: $color-brightest;
-    height: 50vh;
 }
 
 .circle {
