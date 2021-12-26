@@ -70,21 +70,21 @@
             </section>
 
             <section>
-                <div class="d-flex justify-content-center">
-                    <div class="m-5 text-end w-25">
+                <div class="d-sm-flex justify-content-center">
+                    <div class="m-5 text-end col col-sm-3">
                         <p>
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur itaque repellendus esse odio temporibus atque quidem quibusdam ad exercitationem eum.
                         </p>
                     </div>
-                    <div class="m-5 w-25">
+                    <div class="m-5 col col-sm-3">
                         <h1>
                             Lorem ipsum dolor dolor sit amet
                         </h1>
                     </div>
                 </div>
-                <div class="d-flex justify-content-center">
-                    <div class="d-flex w-75">
-                        <div class="w-50 me-4">
+                <div class="d-sm-flex justify-content-center">
+                    <div class="d-sm-flex justify-content-center">
+                        <div class="col m-4">
                             <img class="img-fluid" src="{{ asset('/img/poledancing-img-1.jpg') }}" alt="">
                             <h3 class="mb-3 mt-3 roboto">
                                 Lorem ipsum
@@ -93,7 +93,7 @@
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tempore maxime? Quaerat iusto, veniam numquam suscipit error exercitationem? Dicta, aliquam.
                             </p>
                         </div>
-                        <div class="w-50 me-4">
+                        <div class="col m-4">
                             <img class="img-fluid " src="{{ asset('/img/poledancing-img-2.jpg') }}" alt="">
                             <h3 class="mb-3 mt-3 roboto">
                                 Lorem ipsum dolor
@@ -102,7 +102,7 @@
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tempore maxime? Quaerat iusto, veniam numquam suscipit error exercitationem? Dicta, aliquam.
                             </p>
                         </div>
-                        <div class="w-50">
+                        <div class="col m-4">
                             <img class="img-fluid " src="{{ asset('/img/poledancing-img-3.jpg') }}" alt="">
                             <h3 class="mb-3 mt-3 roboto">
                                 Lorem ipsum dolor sit
@@ -117,10 +117,10 @@
             <div class="newsletter newsletter--background d-flex flex-column justify-content-center">
                 <div>
                     <div class="d-flex justify-content-center">
-                        <h2 class="me-3 text-end w-25 align-self-start white">
+                        <h2 class="me-3 text-end col col-sm-3 white">
                             Lorem ipsum dolor sit amet.
                         </h2>
-                        <p class="text-start w-25 align-self-center white">
+                        <p class="text-start col col-sm-3 white">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil rem sint ut nostrum, aspernatur dignissimos magnam officia provident. Obcaecati, nostrum.
                         </p>
                     </div>
@@ -133,8 +133,8 @@
                 </div>
             </div>
             <section class="gallery">
-                <div class="d-flex ">
-                    <div class="gallery-no-image">
+                <div class="d-sm-flex ">
+                    <div class="col gallery-no-image">
                         <h2>
                             Notre Gallerie
                         </h2>
@@ -145,17 +145,17 @@
                             <i class="bi bi-arrow-right-short white me-2" role="img" aria-label="arrow-right-short"></i>Explore
                         </a>
                     </div>
-                    <img class="gallery-image" src="{{ asset('/img/poledancing-img-slider-1.jpg') }}" alt="">
-                    <img class="gallery-image" src="{{ asset('/img/poledancing-img-slider-2.jpg') }}" alt="">
-                    <img class="gallery-image" src="{{ asset('/img/poledancing-img-slider-3.jpg') }}" alt="">
+                    <img class="img-fluid col-sm-3" src="{{ asset('/img/poledancing-img-slider-1.jpg') }}" alt="">
+                    <img class="img-fluid col-sm-3" src="{{ asset('/img/poledancing-img-slider-2.jpg') }}" alt="">
+                    <img class="img-fluid col-sm-3" src="{{ asset('/img/poledancing-img-slider-3.jpg') }}" alt="">
                 </div>
             </section>
             <section class="teacher">
-                <div class="teacher--background d-flex justify-content-center">
-                    <h2 class="mt-5 mb-5 me-3 text-end w-25 align-self-center">
+                <div class="teacher--background d-sm-flex justify-content-center">
+                    <h2 class="mt-sm-5 mb-5 me-3 text-end col col-sm-3">
                         MEETING OUR AMAZING AERIAL DANCE TEACHER
                     </h2>
-                    <p class="mt-5 mb-5 text-start w-25 align-self-center">
+                    <p class="mt-5 mb-5 text-start col col-sm-3">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil rem sint ut nostrum, aspernatur dignissimos magnam officia provident. Obcaecati, nostrum.
                     </p>
                 </div>
@@ -203,6 +203,5 @@
                     <img class="gallery-image--small " src="{{ asset('/img/poledancing-img-gallery-5.jpg') }} " alt=" ">
                 </div>
             </section>
-        </main>
         {% include 'parts/footer.html.twig' %}
 {% endblock %}

@@ -21,8 +21,8 @@ import '@fortawesome/fontawesome-free/css/all.css';
 import './bootstrap';
 
 // MDBbootstrap
-import * as mdb from 'mdb-ui-kit'; // lib
-import { Input } from 'mdb-ui-kit'; // module
+// import * as mdb from 'mdb-ui-kit'; // lib
+// import { Input } from 'mdb-ui-kit'; // module
 
 bsCustomFileInput.init();
 

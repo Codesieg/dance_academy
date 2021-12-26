@@ -1,7 +1,6 @@
 @import './abstracts/variables';
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
 
-
 .on-front {
     z-index: 9999;
 }
@@ -10,12 +9,9 @@
     overflow: hidden;
 }
 
-.nav-item {
-    font-family: 'Oswald', sans-serif;
-}
-
 .nav-link {
-        color: $color-brightest;
+    color: $color-brightest;
+    font-family: 'Oswald', sans-serif;
 }
 
 .font-oswald {
@@ -52,11 +48,6 @@
     background-size: cover;
 }
 
-.gallery-image,
-.gallery-no-image {
-    width: 25%;
-    height: 483px;
-}
 
 .gallery-no-image {
     background-color: $color-picto;
@@ -128,9 +119,12 @@
 .nav-link--dark {
     color: black;
     text-decoration: none;
+    font-family: 'Oswald', sans-serif;
 
 }
 
 .nav-link--dark:hover {
     color: $color-blue;
 }
+
+
