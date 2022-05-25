@@ -1,0 +1,35 @@
+<body>
+    <main>
+        <div>
+            <header class="">
+                <nav class="on-front position-absolute {{ (routeName == "accueil") ? '' : '' }} start-50 translate-middle mt-5">
+                    <ul class="nav">
+                        <li class="nav-item me-5">
+                            <a class="{{ (routeName == "accueil") ? 'nav-link' : 'nav-link--dark' }} {{ (routeName == "accueil") ? 'text-danger' : '' }}" aria-current="page" href="{{ path('accueil') }}">
+                                ACCUEIL                                                            
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class=" {{ (routeName == "accueil") ? 'nav-link' : 'nav-link--dark' }} {{ (routeName == "school") ? 'text-danger' : '' }}" href="{{ path('school') }}">
+                                L'ÉCOLE                                                            
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="{{ (routeName == "accueil") ? 'nav-link' : 'nav-link--dark' }} {{ (routeName == "portfolio") ? 'text-danger' : '' }}" href="{{ path('portfolio') }}">
+                                PORTFOLIO                                                            
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="{{ (routeName == "accueil") ? 'nav-link' : 'nav-link--dark' }} {{ (routeName == "actus") ? 'text-danger' : '' }}" href="{{ path('actus') }}">
+                                ACTUS                                                          
+                            </a>
+                        </li>
+                        <li class="nav-item me-5">
+                            <a class="{{ (routeName == "accueil") ? 'nav-link' : 'nav-link--dark' }} {{ (routeName == "contact") ? 'text-danger' : '' }}" href="{{ path('contact') }}">
+                                CONTACT                                                        
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+

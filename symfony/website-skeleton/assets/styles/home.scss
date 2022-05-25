@@ -1,4 +1,7 @@
 @import './abstracts/variables';
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap');
+
+
 
 .on-front {
     z-index: 9999;
@@ -8,11 +11,9 @@
     overflow: hidden;
 }
 
-.nav-item {
+.nav-link {
+    color: $color-brightest;
     font-family: 'Oswald', sans-serif;
-    a {
-        color: $color-brightest;
-    }
 }
 
 .font-oswald {
@@ -36,10 +37,7 @@
     margin: 25% 0;
 }
 
-.carousel,
-.slides {
-    height: 100vh;
-}
+
 
 .newsletter--background {
     height: 60vh;
@@ -49,11 +47,6 @@
     background-size: cover;
 }
 
-.gallery-image,
-.gallery-no-image {
-    width: 25%;
-    height: 483px;
-}
 
 .gallery-no-image {
     background-color: $color-picto;
@@ -64,14 +57,18 @@
     font-family: 'roboto';
 }
 
-.teacher--background {
-    height: 30vh;
-    background-image: url('/assets/img/poledancing-backround-1.jpg');
-    background-repeat: no-repeat;
+@media  screen and (min-width: 768px){
+    .teacher--background {
+        background-image: url('/assets/img/poledancing-backround-1.jpg');
+        background-repeat: no-repeat;
+    }
+    .carousel,
+    .slides {
+        height: 100vh;
+    }
 }
-
 .biography {
-    height: 60vh;
+    height: 95vh;
     background-image: url('/assets/img/poledance-parallax.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -89,11 +86,43 @@
 
 .gallery-image--small {
     width: 20%;
-    height: 20%;
+    // height: 20%;
     overflow: hidden;
 }
 
-.avis {
-    background-color: $color-brightest;
-    height: 30vh;
+.circle {
+    border-radius: 50%;
 }
+
+.categories {
+    margin-left: 0;
+    &__tag {
+        list-style-type: none;
+    }
+    &__link {
+        text-decoration: none;
+        padding: 5px;
+        color: grey;
+    }
+}
+
+.carousel-control-next-icon:after {
+    content: "" !important;
+}
+
+.carousel-control-prev-icon:after {
+    content: "" !important;
+}
+
+.nav-link--dark {
+    color: black;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+.nav-link--dark:hover {
+    color: $color-blue;
+}
+
+

@@ -1,0 +1,46 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dance Academy - Actus{% endblock %}
+
+
+{% block body %}
+        {% include 'parts/nav.html.twig' %}
+        <section class="actualities">
+            <h1 class="p-4 mb-5 bg-primary text-white text-center font-oswald">Nos Actualitées</h1>
+        </section>
+        <div class="d-flex">
+            <section class="d-flex flex-column align-items-center">
+                        <article class="w-25 me-4">
+                            <img class="img-fluid" src="{{ asset('/img/blog/standard-post-1.jpg') }}" alt="">
+                            <div class="d-flex mt-3 ">
+                                <span>Le 19 Juillet 2021</span>
+                                <span>/ Pars John Doe</span>
+                                <span>/ Dance</span>
+                            </div>
+                            <h3 class="mb-3 mt-3 font-oswald">Lorem ipsum</h3>
+                            <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tempore maxime? Quaerat iusto, veniam numquam suscipit error exercitationem? Dicta, aliquam...</p>
+                            <a href="#" class="btn btn-primary mb-3">Lire plus </a>
+                        </article>
+                </section>
+                <aside class="d-flex flex-column">
+                    <div>
+                        <img class="img-fluid" src="{{ asset('/img/blog/author-vibez-img-1.jpg') }}" alt="">
+                        <span class="font-oswald">Dance Choregrapher</span>
+                        <span>Janne Doe</span>
+                        <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-oswald">Dernier post </h3>
+                    <div>
+                        <img class="" src="{{ asset('/img/blog/author-vibez-img-1.jpg') }}" alt="">
+                        <div>
+                            <a href=""></a>
+                            <span></span>
+                            </div>
+                    </div>
+                    </div>
+                </aside>
+        </div>
+        </main>
+        {% include 'parts/footer.html.twig' %}
+{% endblock %}

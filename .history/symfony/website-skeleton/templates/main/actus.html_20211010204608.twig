@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Dance Academy - Actus{% endblock %}
+
+
+{% block body %}
+        {% include 'parts/nav.html.twig' %}
+        <section class="actualities">
+            <h1 class="p-4 mb-5 bg-primary text-white text-center font-oswald">Nos Actualitées</h1>
+        </section>
+        <div class="d-flex me-5">
+            <section class="d-flex flex-column align-items-center">
+                        <article class="w-75 mb-5">
+                            <img class="img-fluid" src="{{ asset('/img/blog/standard-post-1.jpg') }}" alt="">
+                            <span class="text-secondary mt-3">Le 19 Juillet 2021 / Pars John Doe / Dance</span>
+                            <h3 class="mb-3 mt-3 font-oswald">Lorem ipsum</h3>
+                            <p class="mb-2 text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, tempore maxime? Quaerat iusto, veniam numquam suscipit error exercitationem? Dicta, aliquam...</p>
+                            <a href="#" class="text-primary text-decoration-none">Continuer à lire </a>
+                        </article>
+                </section>
+                <aside class="d-flex flex-column w-25 me-5">
+                    <div class="d-flex flex-column">
+                        <img class="img-fluid mb-3" src="{{ asset('/img/blog/author-vibez-img-1.jpg') }}" alt="">
+                        <span class="font-oswald text-success mt-2">Dance Choregrapher</span>
+                        <h3 class="font-oswald mt-2">Janne Doe</h3>
+                        <p class="mb-2 text-secondary mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div>
+                        <h3 class="font-oswald mt-5 mb-4">Dernier post</h3>
+                        <div class="d-flex">
+                            <img height="75" width="75" class="circle" src="{{ asset('/img/blog/author-vibez-img-1.jpg') }}" alt="">
+                            <div class="d-flex flex-column align-items-center justify-content-start ms-4">
+                                <a class="align-self-start text-decoration-none" href="">Porte ouverte</a>
+                                <span class="text-secondary">Le 10 Octobre 2021</span>
+                            </div>
+                        </div>
+                    </div>
+                </aside>
+        </div>
+        </main>
+        {% include 'parts/footer.html.twig' %}
+{% endblock %}
